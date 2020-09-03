@@ -1,0 +1,20 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button type="button" id="button">Change Fabric</button>
+    <div id="player" style="height: 100%"></div>
+    <script src="https://epic-sketch.threekit.dev/app/js/threekit-player.js"></script>
+    <script>
+      const AUTH_TOKEN = '2cc45ace-04f1-4c20-ac3e-a198976adc5a';
+      threekitPlayer({
+        authToken: AUTH_TOKEN,
+        el: document.getElementById('player'),
+        assetId: 'ce4f6330-feff-440e-a91a-f0c879fc9d12',
+      });
+    </script>
+  </body>
+</html>
